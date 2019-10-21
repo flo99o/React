@@ -1,17 +1,16 @@
 import React from 'react';
-import './App.css';
-import Contacts from './components/Contacts';
+import ContactList from './components/ContactList';
 
 
-function App(props) {
+function App() {
   return (
     <div className="App">
-    
-     <Contacts name="Jenny Putas" avatar="https://randomuser.me/api/portraits/women/32.jpg" online={true}/>
-     <Contacts name="Puree de quête" avatar="https://randomuser.me/api/portraits/men/72.jpg" online={false}/>
-     <Contacts name="Bonne Crepe" avatar="https://randomuser.me/api/portraits/women/43.jpg" online={true}/>
+      <ContactList />
     </div>
   );
 }
+
+
+
 
 export default App;
